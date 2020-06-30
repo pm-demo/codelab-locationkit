@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/gradient_light"
+    android:clickable="true"
+    >
+    <RelativeLayout
+        android:id="@+id/rlMenuItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/rectangle_dropshadow"
+        >
+        <TextView
+            android:id="@+id/tvLocUpdateCallback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:background="@color/transparent_white"
+            android:text="Request Location Update (Callback)"
+            android:textColor="@color/purple"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvGetLocationAvail"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLocUpdateCallback"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignStart="@+id/tvLocUpdateCallback"
+            android:layout_alignEnd="@+id/tvLocUpdateCallback"
+            android:background="@color/transparent_white"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:text="Get Location Availability"
+            android:textColor="@color/purple"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+{
+	"client":{
+		"cp_id":"890001000000000755",
+		"product_id":"736430079244533310",
+		"client_id":"393584449138197504",
+		"client_secret":"2EBD5490D0DCAF551AECD23719EF88675B42C19BC206A451EA4729486D474FD1",
+		"app_id":"102466271",
+		"package_name":"com.android.locationkit",
+		"api_key":"CgB6e3x9P15Y97QMMatH3Jhibt6QqLexU6PTmKUVQTtc/VmIevfOwsCdi7Ay1xdA9G9zF7nc5XhoVYNY31qC8WkT"
+	},
+	"configuration_version":"1.0"
+}
